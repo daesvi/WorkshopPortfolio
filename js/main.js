@@ -56,7 +56,7 @@ const successAlert = (text) => {
 
 const sendEmail = async (data) => {
     try {
-        const response = await fetch('http://localhost:3000/sendemail', {
+        const response = await fetch('https://workshop-send-email.vercel.app/sendemail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
