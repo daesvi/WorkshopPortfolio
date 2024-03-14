@@ -17,7 +17,7 @@ const dataConstructor = (...args) => {
     const [nameInput, emailInput, messageInput] = args;
     return{
         destinatario: emailInput,
-        asunto: 'Asunto del correo electrónico',
+        asunto: 'Notificación desde la landing portfolio',
         cuerpo: `
             Nombre: ${nameInput}
             Email: ${emailInput}
