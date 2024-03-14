@@ -1,0 +1,14 @@
+#mainNav {
+    grid-template-columns: 1fr auto;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(142, 150, 157, 0.5);
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
