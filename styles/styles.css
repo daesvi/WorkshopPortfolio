@@ -95,9 +95,10 @@
 html {
   font-size: 62.5%;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem; /* Ajusta este valor según el tamaño deseado */
+    font-size: 1.7rem; /* Ajusta este valor según el tamaño deseado */
     font-weight: 400;
 }
 .button {
